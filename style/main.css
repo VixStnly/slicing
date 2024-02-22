@@ -1,0 +1,125 @@
+body{
+
+}
+
+h4{    padding-top: 20px;
+    padding-left: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 50px;
+}
+.header span {
+    
+    border-bottom-color: #FF8F0F; /* Warna garis bawah hijau (#00ff00) */
+    border-bottom-width: 5px; /* Ketebalan garis bawah 1 piksel */
+    border-bottom-style: solid; /* Gaya garis bawah (solid untuk garis lurus) */
+}
+
+.btn {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.button{
+    display: flex;
+}
+.button-right  {
+   padding-left: 20px;
+  
+}
+
+.button-left{
+    font-size: 10px;
+}
+
+.button-left button{
+    color: #FF8F0F;
+    border-color: #FF8F0F;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+
+
+.content{
+    
+  text-align: center;
+    margin-right: 20px;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+
+
+
+.imagess {
+    width: 100%;
+    height: 50%; /* Set the height to 50% of the viewport height */
+    background-color: #F6D6A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Make it a positioning context for the absolute positioning of the child */
+}
+
+.content {
+    height: 100%; /* Set the height to 100% of the viewport height */
+    text-align: center;
+    margin-right: 20px;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+
+.card::after {
+    content: ''; /* Create a pseudo-element to act as the background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Set its height to cover the entire card */
+    background-color: #F6D6A8; /* Set the background color */
+    z-index: -1; /* Send it to the back */
+}
+
+
+.header2 span{
+    border-bottom-color: #FF8F0F; /* Warna garis bawah hijau (#00ff00) */
+    border-bottom-width: 5px; /* Ketebalan garis bawah 1 piksel */
+    border-bottom-style: solid; /* Gaya garis bawah (solid untuk garis lurus) */
+}
+
+.cart {
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.cart img{
+    width: 50px;
+    padding: 30%;
+    border-radius: 50px;
+    color: white;
+    background-color: #FF8F0F;
+
+}
+
+.header2 h4{
+    padding-bottom: 50px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content2 img {
+    max-width: 100%;
+    height: auto;
+}
